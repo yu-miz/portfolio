@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Asar');
+#wrapper{
+    margin: 0 auto;
+    position: relative;
+    max-width: 1290px;
+}
+img{
+    max-width: 100%;
+}
+.cf::after{
+ content:"";
+    display: block;
+    clear: both;
+}
+body{
+font-family: 'Asar', serif;
+    background-color: #111;
+    letter-spacing: 4px;
+}

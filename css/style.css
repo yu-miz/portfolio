@@ -1,0 +1,142 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css?family=Asar");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@media screen and (min-width: 1290px) {
+  #wrapper {
+    width: 1290px;
+    height: 660px;
+    background-image: url(../../img/bg1.png);
+    background-repeat: no-repeat; }
+  #main {
+    position: relative;
+    width: 6450px;
+    height: 360px;
+    padding-top: 190px; }
+    #main #title {
+      width: 1290px; }
+      #main #title h1,
+      #main #title h2 {
+        color: #fff;
+        text-align: center; }
+      #main #title h1 {
+        text-shadow: 3px 3px 1px #000;
+        font-size: 84px; }
+      #main #title h2 {
+        text-shadow: 3px 3px 4px #000;
+        font-size: 64px; }
+    #main li {
+      width: 1290px;
+      float: left; }
+  #about, #skill, #work, #contact {
+    color: #fff; }
+    #about h1, #skill h1, #work h1, #contact h1 {
+      text-align: center;
+      font-size: 84px;
+      margin-bottom: 45px; }
+    #about h2, #skill h2, #work h2, #contact h2 {
+      font-size: 30px;
+      text-align: center; }
+    #about table, #skill table, #work table, #contact table {
+      width: 30%;
+      font-size: 30px;
+      float: left;
+      margin-right: 5%;
+      margin-left: 10%; }
+      #about table th, #skill table th, #work table th, #contact table th {
+        line-height: 2em;
+        text-align: left; }
+    #about #history, #skill #history, #work #history, #contact #history {
+      width: 30%;
+      float: left;
+      font-size: 16px;
+      line-height: 1.5em;
+      margin-right: 10%;
+      margin-left: 5%; } }
+
+#gnav {
+  width: 100%;
+  padding-left: 12.5%;
+  text-align: center;
+  height: 40px; }
+  #gnav li {
+    text-shadow: 2px 2px 1px #000;
+    width: 15%;
+    font-weight: bold;
+    font-size: 30px;
+    float: left;
+    border-right: 1px solid #fff; }
+    #gnav li:nth-child(5) {
+      border-right: none; }
+  #gnav a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #fff; }
+
+#wrapper {
+  margin: 0 auto;
+  position: relative;
+  max-width: 1290px; }
+
+img {
+  max-width: 100%; }
+
+.cf::after {
+  content: "";
+  display: block;
+  clear: both; }
+
+body {
+  font-family: 'Asar', serif;
+  background-color: #111;
+  letter-spacing: 4px; }
+
+#footer {
+  height: 70px;
+  text-align: center;
+  color: #fff;
+  line-height: 70px; }
