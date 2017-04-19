@@ -15,5 +15,11 @@ $(function () {
 $("#btn").click(function(){
     $("#gnav").slideToggle();
 });
-    
+
+$("#gnav .about").click(function(){
+    var target = $($(this).attr("href")).offset().left;
+    $("html,body").animate({scrollLeft: target},500);
+    return false;
+});
+
 });
