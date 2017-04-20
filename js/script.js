@@ -1,25 +1,6 @@
 $(function () {
-//    $(".about").click(function () {
-//        $("#wrapper").css('background-image', 'url(../img/bg2.png)');
-//    });
-//    $(".skill").click(function () {
-//        $("#wrapper").css('background-image', 'url(../img/bg3.png)');
-//    });
-//    $(".work").click(function () {
-//        $("#wrapper").css('background-image', 'url(../img/bg4.png)');
-//    });
-//    $(".contact").click(function () {
-//        $("#wrapper").css('background-image', 'url(../img/bg5.png)');
-//    });
-    
-$("#btn").click(function(){
-    $("#gnav").slideToggle();
-});
-
-$("#gnav .about").click(function(){
-    var target = $($(this).attr("href")).offset().left;
-    $("html,body").animate({scrollLeft: target},500);
-    return false;
+    $("#btn").click(function(){
+    $("#gnav").stop().slideToggle();
 });
 
 });

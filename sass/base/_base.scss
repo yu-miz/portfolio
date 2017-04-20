@@ -2,8 +2,12 @@
 #wrapper{
     margin: 0 auto;
     position: relative;
-    max-width: 1290px;
-     overflow-x: hidden;
+    max-width: 1290px; 
+    width: 320px;
+    height: 480px;
+    background-image: url(../../img/bg.jpg);
+    background-size: 320px 480px;
+    
 }
 img{
     max-width: 100%;
@@ -14,8 +18,8 @@ img{
     clear: both;
 }
 body{
-   
-font-family: 'Asar', serif;
+    
+    font-family: 'Asar', serif;
     background-color: #111;
     letter-spacing: 4px;
 }
